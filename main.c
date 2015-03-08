@@ -1,6 +1,6 @@
 /* 
  * File:   main.c
- * Author: Sergio
+ * Author: Sergio Rueda Robles
  *
  * Created on 8 de marzo de 2015, 17:21
  */
