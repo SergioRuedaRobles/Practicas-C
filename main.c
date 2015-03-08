@@ -27,11 +27,18 @@ int leerNum(){
     return x;
 }
 
+void par(){
+    int num;
+    num=leerNum();
+    if(num%2==0){
+        printf("Es par");
+    }else{
+        printf("No es par");
+    }
+}
+
 int main(int argc, char** argv) {
-    int x,y;
-    x=leerNum();
-    y=leerNum();
-    comparar(x,y);
+    par();
     return (0);
 }
 
