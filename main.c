@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 
-void comparar(int num1, int num2){
+void comparar(int num1, int num2){//Compara dos num e indica cual es mayor y menor
     if(num1>num2){
         printf("El primero es mayor que el segundo");
     }else if(num1<num2){
@@ -18,7 +18,7 @@ void comparar(int num1, int num2){
         printf("Son iguales");
     }
 }
-int leerNum(){
+int leerNum(){//escanea un num del teclado y lo devuelve
     int x; 
     printf("Escribe un numero: ");
     scanf("%d",&x);
@@ -27,9 +27,7 @@ int leerNum(){
     return x;
 }
 
-void par(){
-    int num;
-    num=leerNum();
+void par(int num){//mira si el numero introducido es o no par
     if(num%2==0){
         printf("Es par");
     }else{
@@ -38,7 +36,7 @@ void par(){
 }
 
 int main(int argc, char** argv) {
-    par();
+    par(leerNum());
     return (0);
 }
 
