@@ -32,6 +32,6 @@ int main(int argc, char** argv) {
     x=leerNum();
     y=leerNum();
     comparar(x,y);
-    return (EXIT_SUCCESS);
+    return (0);
 }
 
