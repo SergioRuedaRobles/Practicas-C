@@ -23,7 +23,7 @@ int leerNum(){
     printf("Escribe un numero: ");
     scanf("%d",&x);
     printf("%d",x);
-    printf("%\n");
+    printf("\n");
     return x;
 }
 
